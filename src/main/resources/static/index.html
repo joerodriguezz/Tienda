@@ -1,30 +1,98 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
     <head>
         <title>Tienda en Linea</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Esta pagina contiene etiquetas del tipo html5 y estilos css3 ">
+        <meta name="Keywords" content="html5, css3, web, fidelitas">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <a href="ejemplo9.html">Back</a>
-        <a href="index.html">Home</a>
-        <a href="ejemplo2.html">Next</a>
-        <div>
-            <h1 style="text-align: center">Home</h1>
-            <p>Bienvenidos a la pagina principal de Tienda en linea</p>
-            <p>PROYECTO TIENDA REALIZADO EN CLASE</p>
-        </div>
-        <p style="text-align: left">Lorem ipsum dolor sit amet consectetur adipiscing elit tempor iaculis nisl et fermentum, purus neque lacinia a ultricies sollicitudin gravida pharetra non suscipit inceptos. Pulvinar torquent himenaeos laoreet fusce in eros eleifend morbi nisl, nostra purus netus aptent habitasse urna ac ridiculus lobortis, tincidunt posuere tempor nunc tristique sagittis elementum ante. Feugiat fames id cum sociosqu proin inceptos sociis integer, a dictum curae magnis nunc pellentesque mauris, metus purus mus laoreet turpis aenean odio.<p>
+        <header id="encabezado">
+            <h1>Tienda Electrónica</h1>  
+        </header>
 
-        <p style="text-align: left">Rhoncus netus placerat varius orci rutrum erat laoreet aliquam lobortis class, sodales metus etiam consequat magna faucibus ante ligula dapibus, vehicula posuere mattis parturient mauris aptent ullamcorper sollicitudin elementum. Donec montes nam venenatis euismod lobortis feugiat cras nullam nisi tortor, porta pellentesque elementum nostra fusce cubilia eget ultricies porttitor sed, pretium magna iaculis pulvinar hendrerit mattis fames lacus imperdiet. Aliquam nisi nostra quis taciti vivamus luctus laoreet, lobortis nibh lacinia torquent fermentum ridiculus, dictum porta mus suspendisse accumsan maecenas.<p>
+        <nav id="menú"><!-- Etiquesa posible menú -->
+            <a href="ejemplo9.html">Back</a>
+            <a href="index.html">Home</a>
+            <a href="ejemplo2.html">Next</a>
+        </nav>
 
-        <p style="text-align: left">Malesuada praesent habitant mus pulvinar hendrerit vehicula suscipit venenatis egestas morbi imperdiet turpis tempor, vitae pharetra ornare lectus nascetur primis porttitor vulputate tellus mi maecenas curae. Eget porta nullam integer in pellentesque suscipit per tellus nibh sapien risus, dapibus vitae interdum cubilia inceptos ligula natoque proin curae varius, massa ornare id magnis odio nunc feugiat turpis justo purus. Dignissim pulvinar neque ullamcorper viverra diam accumsan class praesent maecenas dapibus, erat integer fusce vitae purus dui sollicitudin senectus conubia, euismod curabitur duis sed ridiculus velit inceptos pretium cubilia. Sollicitudin venenatis sociosqu potenti aenean eu penatibus maecenas vehicula senectus egestas rutrum himenaeos, conubia eget arcu sapien euismod mattis est purus accumsan ante etiam.<p>
+        <aside id="barralateral">
+            <h2>Produtos más vendidos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat porttitor, imperdiet aliquam lobortis interdum neque eget venenatis litora. Odio taciti proin natoque per elementum ornare eros commodo, a vivamus parturient mauris leo est magna, cum sapien bibendum mattis tristique habitasse phasellus. Egestas est eleifend elementum bibendum urna dis curabitur orci lacus potenti tempor, placerat blandit congue leo netus ut nostra dictum per rhoncus vehicula, commodo sociis hac dapibus euismod a aenean semper ultrices condimentum.</p>
+        </aside>
+        <section id="contenido">
+            <h2>Articulos Principales</h2>
+            <article>
+                <header>Portatil Gamer XRT</header>
+                <footer>Agregar al carrito</footer>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tempor iaculis nisl et fermentum, purus neque lacinia a ultricies sollicitudin gravida pharetra non suscipit inceptos. Pulvinar torquent himenaeos laoreet fusce in eros eleifend morbi nisl, nostra purus netus aptent habitasse urna ac ridiculus lobortis, tincidunt posuere tempor nunc tristique sagittis elementum ante. Feugiat fames id cum sociosqu proin inceptos sociis integer, a dictum curae magnis nunc pellentesque mauris, metus purus mus laoreet turpis aenean odio.<p>
+                <figure>
+                    <img src="images/equipo 1.jpg" alt="Desktop Gamer" width="300"/>
+                </figure>
+            </article>
+            <article>
+                <header>Tarjeta de video RTX </header>
+                <footer>Agregar al carrito</footer>
+                <p>Esta inspirada en la pelicula <cite>Aliens el octavo pasajero</cite> Rhoncus netus placerat varius orci rutrum erat laoreet aliquam lobortis class, sodales metus etiam consequat magna faucibus ante ligula dapibus, vehicula posuere mattis parturient mauris aptent ullamcorper sollicitudin elementum. Donec montes nam venenatis euismod lobortis feugiat cras nullam nisi tortor, porta pellentesque elementum nostra fusce cubilia eget ultricies porttitor sed, pretium magna iaculis pulvinar hendrerit mattis fames lacus imperdiet. Aliquam nisi nostra quis taciti vivamus luctus laoreet, lobortis nibh lacinia torquent fermentum ridiculus, dictum porta mus suspendisse accumsan maecenas.<p>
+                <figure>
+                    <img src="images/equipo2.jpg" alt="Grafica RTX" width="300"/>
+                    <figcaption>Más vendido</figcaption>
+                </figure>
+            </article>
+            <article>
+                <header>Sillas Gamer </header>
+                <footer>Agregar al carrito</footer>
+                <p>Malesuada praesent habitant mus pulvinar hendrerit vehicula suscipit venenatis egestas morbi imperdiet turpis tempor, vitae pharetra ornare lectus nascetur primis porttitor vulputate tellus mi maecenas curae. Eget porta nullam integer in pellentesque suscipit per tellus nibh sapien risus, dapibus vitae interdum cubilia inceptos ligula natoque proin curae varius, massa ornare id magnis odio nunc feugiat turpis justo purus. Dignissim pulvinar neque ullamcorper viverra diam accumsan class praesent maecenas dapibus, erat integer fusce vitae purus dui sollicitudin senectus conubia, euismod curabitur duis sed ridiculus velit inceptos pretium cubilia. Sollicitudin venenatis sociosqu potenti aenean eu penatibus maecenas vehicula senectus egestas rutrum himenaeos, conubia eget arcu sapien euismod mattis est purus accumsan ante etiam.<p>
+                <figure>
+                    <img src="images/equipo3.jpg" alt="Sillas Gamer" width="300"/>
+                    <figcaption>Más económico</figcaption>
+                </figure>
+            </article>
+            <article>
+                <header>Resumen de lineas </header>
+                <p>natoque proin curae varius, massa ornare id magnis odio nunc feugiat turpis justo purus. Dignissim pulvinar neque ullamcorper viverra diam accumsan class praesent maecenas dapibus, erat integer fusce vitae purus dui sollicitudin senectus conubia, euismod curabitur duis sed ridiculus velit inceptos pretium cubilia. Sollicitudin venenatis sociosqu potenti aenean eu penatibus maecenas vehicula senectus egestas rutrum himenaeos, conubia eget arcu sapien euismod mattis est purus accumsan ante etiam.<p>
+                <table border="0">
+                    <thead>
+                        <tr id="encabezadoTabla">
+                            <th>Código</th>
+                            <th>Detalle</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaresumen">
+                        <tr>
+                            <td>1</td>
+                            <td>Malesuada praesent habitant mus pulvinar hendrerit vehicula</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>suscipit venenatis egestas morbi imperdiet turpis tempor</td>
+                        </tr>
+                         <tr>
+                            <td>3</td>
+                            <td>vitae pharetra ornare lectus nascetur primis porttitor</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>vulputate tellus mi maecenas curae. Eget porta nullam</td>
+                        </tr>
+                         <tr>
+                            <td>5</td>
+                            <td>integer in pellentesque suscipit per tellus nibh sapien</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>risus, dapibus vitae interdum cubilia inceptos ligula</td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
 
-            <br>
-            <br>
-        <p>Ultima linea</p>
-
+            </article>
+        </section>
+        <footer id="piepagina">Derechos reservados &COPY; 2023<address style="display: inline">Tel: 123456789</address></footer>
     </body>
 
 
